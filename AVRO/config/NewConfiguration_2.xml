@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns2:job xmlns:ns2="hydrograph/engine/jaxb/job">
+  <jobConfig>
+    <jobId>AVRO_519</jobId>
+    <XMLPath>jobs/AVRO.xml</XMLPath>
+  </jobConfig>
+  <paramProviders>
+    <paramProvider xmlns:ns4="hydrograph/engine/jaxb/propertiesfileparamprovider" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" paramProviderType="PropertiesFileParamProvider" xsi:type="ns4:PropertiesFileParamProvider">
+      <paramProviderID>1584391533825</paramProviderID>
+      <propertyFilePath>param/AVRO.properties</propertyFilePath>
+    </paramProvider>
+  </paramProviders>
+</ns2:job>

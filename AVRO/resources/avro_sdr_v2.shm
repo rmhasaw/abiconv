@@ -1,0 +1,107 @@
+<hg.component.common.base.schema.Record>
+  <otherAttributes/>
+  <fieldOrRecordSchema>
+    <hg.component.common.base.schema.Field>
+      <name>load_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>transaction_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>transaction_number</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>opentext_id_flag</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>raw_opentext_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>added_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>field_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>field_name</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>no_of_values</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>field_values</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>end_of_rec</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+  </fieldOrRecordSchema>
+</hg.component.common.base.schema.Record>

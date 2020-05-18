@@ -1,0 +1,103 @@
+apply plugin: 'java'
+sourceCompatibility = 1.8   // Hydrograph Java compatibility
+version = '1.0'		    // The version is used to create project jar version number
+
+
+/*
+-------------------------------------------------------------------------------------------------
+                                   Project Repositories Section 
+-------------------------------------------------------------------------------------------------
+                    Add links of Nexus/Artifactory in order to resolve the dependencies 
+*/
+ext.AWUrl='';
+/*
+-------------------------------------------------------------------------------------------------
+                                       Version Section  
+-------------------------------------------------------------------------------------------------
+*/
+ext.cascadingVersion = '3.1.0'
+ext.hadoopVersion = '2.6.0'
+ext.hiveVersion = '1.2.0'
+
+
+/*
+-------------------------------------------------------------------------------------------------
+									 Repository Section 
+-------------------------------------------------------------------------------------------------
+*/
+repositories {  
+		mavenLocal()
+//		maven{  url AWUrl }
+}
+/*
+-------------------------------------------------------------------------------------------------
+					       			Configuration Section 
+-------------------------------------------------------------------------------------------------
+*/
+configurations {
+    compile
+}
+sourceSets {
+    main {
+        java.srcDir 'src/main/java'
+    }
+}
+configurations.all {
+    // Check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+configurations {
+    compile {
+        transitive = true
+    }
+}
+
+/*
+-------------------------------------------------------------------------------------------------
+Read project's build.properties file and get the configuration details required for job execution 
+-------------------------------------------------------------------------------------------------
+*/
+	Properties properties = new Properties()
+	def buildProperty = project.projectDir.path + '/build.properties'
+	File propertiesFile = new File(buildProperty)
+	propertiesFile.withInputStream {
+    properties.load(propertiesFile.newDataInputStream())
+}
+/*
+-------------------------------------------------------------------------------------------------
+                                        Dependency Section 
+-------------------------------------------------------------------------------------------------
+*/
+
+dependencies {
+		compile fileTree(dir: 'lib', include: ['*.jar'])
+		compile(group: 'hydrograph', name: 'hydrograph.engine-shadow', version: '1.0.0'){ exclude group: '*' }
+        compile(group: 'hydrograph', name: 'execution.tracking.client', version: '1.0.0'){ exclude group: '*' }
+        compile(group: 'org.datanucleus', name: 'datanucleus-api-jdo', version: '3.2.6'){ exclude group: '*' }
+        compile(group: 'org.datanucleus', name: 'datanucleus-core', version: '3.2.10'){ exclude group: '*' }
+        compile(group: 'org.datanucleus', name: 'datanucleus-rdbms', version: '3.2.9'){ exclude group: '*' }
+
+}
+
+
+test {
+    testLogging.showStandardStreams = true
+}
+
+/*
+-------------------------------------------------------------------------------------------------
+                                    ETL Project Build
+-------------------------------------------------------------------------------------------------
+*/
+
+task buildETLProject(dependsOn: ['build', 'classes']) {
+	jar {
+	  archiveName = "hydrograph_fat-1.0.jar";
+	  manifest {
+	    attributes(
+		   "Class-Path": configurations.compile.collect { it.toURL() }.join(' ')
+		)
+	  }
+	}
+}

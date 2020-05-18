@@ -1,0 +1,3385 @@
+<hg.component.common.base.schema.Record>
+  <otherAttributes/>
+  <fieldOrRecordSchema>
+    <hg.component.common.base.schema.Field>
+      <name>country</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>dml_version</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_seqno</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>bre_version</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_year</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_month</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_week</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_week_number</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_day</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>ppweek</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>added_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>updated_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>load_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>primary_key</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>projection_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldInteger">
+        <type>java.lang.Integer</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>survey_start_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>household_head</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>age</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>male_head_age</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>female_head_age</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>head_of_household_age</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>survey_age</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>gender</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>survey_gender</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>race</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>hispanic</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>ethnic_group</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>marital_status</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>education</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>education_detail</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>employment</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>male_head_employment</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>female_head_employment</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>employment_status</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>occupation</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>male_head_occupation</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>female_head_occupation</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>male_head_education</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>female_head_education</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>buyer</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>household_income</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>household_size</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>household_composition</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>age_of_children</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>life_cycle</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>microvision</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>prism</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>spectra</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>market_size</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>cbsa_market_size</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>pg_market_size</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>state</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>dma</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>msa</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>postal_code</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>group_number</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>number_of_trackers</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>number_of_trackers_6mos</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>days_on_panel</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>active_days_on_panel</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>months_on_panel</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>quality_score</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>samsclub_segmentation</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>walmart_segmentation</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>internet_access</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>computer_location</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>connection_type</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>operating_system</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>pc_type</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>work_at_home</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>closed_custom_counter</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>closed_tracker_counter</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>cnr_counter</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>mega_reclaim_counter</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>proh_reclaim_counter</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>inactive_reclaim_counter</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Record>
+      <name>factors</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldOrRecordSchema>
+        <hg.component.common.base.schema.Field>
+          <name>projection_factor</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>routing_factor</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+      </fieldOrRecordSchema>
+    </hg.component.common.base.schema.Record>
+    <hg.component.common.base.schema.Field>
+      <name>mail_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldInteger">
+        <type>java.lang.Integer</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>confirmit_jobnum</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Record>
+      <name>education_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldOrRecordSchema>
+        <hg.component.common.base.schema.Field>
+          <name>level_0</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_1</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_2</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_3</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_4</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_5</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_6</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_7</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_8</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_9</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+      </fieldOrRecordSchema>
+    </hg.component.common.base.schema.Record>
+    <hg.component.common.base.schema.Record>
+      <name>geo_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldOrRecordSchema>
+        <hg.component.common.base.schema.Field>
+          <name>level_0</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_1</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_2</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_3</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_4</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_5</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_6</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_7</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_8</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_9</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+      </fieldOrRecordSchema>
+    </hg.component.common.base.schema.Record>
+    <hg.component.common.base.schema.Record>
+      <name>household_size_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldOrRecordSchema>
+        <hg.component.common.base.schema.Field>
+          <name>level_0</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_1</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_2</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_3</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_4</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_5</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_6</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_7</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_8</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_9</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+      </fieldOrRecordSchema>
+    </hg.component.common.base.schema.Record>
+    <hg.component.common.base.schema.Record>
+      <name>household_income_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldOrRecordSchema>
+        <hg.component.common.base.schema.Field>
+          <name>level_0</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_1</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_2</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_3</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_4</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_5</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_6</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_7</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_8</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>level_9</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+      </fieldOrRecordSchema>
+    </hg.component.common.base.schema.Record>
+    <hg.component.common.base.schema.Field>
+      <name>complete_flag</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>status</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>raw_fields</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>sdr_primary_key</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_01</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_02</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_03</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_04</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_05</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_06</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_07</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_08</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_09</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_10</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_11</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_12</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_13</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_14</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_15</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_16</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_17</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_18</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_19</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_20</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_21</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_22</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_23</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_24</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_25</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_26</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_27</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>questionnaire_values_01</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>questionnaire_values_02</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>questionnaire_values_03</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>questionnaire_values_04</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_10</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_11</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_12</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_13</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_14</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_15</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_16</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_17</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_18</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_19</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_20</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_21</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_22</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_23</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_24</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_25</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_26</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_27</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_28</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_29</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_30</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_31</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_32</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_33</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_34</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_35</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_36</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_37</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_38</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_39</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_40</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_41</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_42</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_43</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_44</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_45</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_46</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_47</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_48</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_49</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_50</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_51</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_52</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_53</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_54</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_55</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_56</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_57</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_58</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_59</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_60</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_61</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_62</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_63</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_64</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_65</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_66</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_67</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_68</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_69</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_70</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_71</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_72</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_73</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_74</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_75</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_76</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_77</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_78</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_79</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_80</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_81</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_82</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_83</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_84</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_85</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_86</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_87</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_88</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_89</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_90</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_91</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_92</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_93</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_94</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_95</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_96</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_97</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_98</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_99</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_100</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_101</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_102</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_103</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_104</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_105</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_106</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_107</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_108</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_109</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_110</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_111</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_112</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_113</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_114</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_115</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_116</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_117</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_118</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_119</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_120</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_121</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_122</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_123</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_124</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_125</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_126</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_127</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_128</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_129</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_130</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_131</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_132</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_133</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_134</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_135</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_136</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_137</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_138</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_139</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_140</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_141</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_142</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_143</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_144</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_145</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_146</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_147</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_148</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_149</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_150</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_151</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_152</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_153</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_154</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_155</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_156</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_157</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_158</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_attr_159</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_10</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_11</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_12</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_13</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_14</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_15</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_16</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_17</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_18</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_19</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>raw_values_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>date_values_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>aggr_values_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>bus_dim_count</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Record>
+      <name>bus_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldOrRecordSchema>
+        <hg.component.common.base.schema.Field>
+          <name>dim_name</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+            <type>java.lang.String</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Record>
+          <name>dim_levels</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldOrRecordSchema>
+            <hg.component.common.base.schema.Field>
+              <name>level_0</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+            <hg.component.common.base.schema.Field>
+              <name>level_1</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+            <hg.component.common.base.schema.Field>
+              <name>level_2</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+            <hg.component.common.base.schema.Field>
+              <name>level_3</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+            <hg.component.common.base.schema.Field>
+              <name>level_4</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+            <hg.component.common.base.schema.Field>
+              <name>level_5</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+            <hg.component.common.base.schema.Field>
+              <name>level_6</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+            <hg.component.common.base.schema.Field>
+              <name>level_7</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+            <hg.component.common.base.schema.Field>
+              <name>level_8</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+            <hg.component.common.base.schema.Field>
+              <name>level_9</name>
+              <parent reference="../../.."/>
+              <otherAttributes/>
+              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                <type>java.lang.Long</type>
+              </fieldType>
+              <description></description>
+            </hg.component.common.base.schema.Field>
+          </fieldOrRecordSchema>
+        </hg.component.common.base.schema.Record>
+      </fieldOrRecordSchema>
+    </hg.component.common.base.schema.Record>
+    <hg.component.common.base.schema.Field>
+      <name>user_defined_fields_count</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_defined_fields</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_defined_multi_count</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Record>
+      <name>user_defined_multi</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <fieldOrRecordSchema>
+        <hg.component.common.base.schema.Field>
+          <name>code_count</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>user_defined_codes</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <vectorDims>
+            <string>-1</string>
+          </vectorDims>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+      </fieldOrRecordSchema>
+    </hg.component.common.base.schema.Record>
+    <hg.component.common.base.schema.Field>
+      <name>file_type</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>end_of_rec</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+  </fieldOrRecordSchema>
+</hg.component.common.base.schema.Record>

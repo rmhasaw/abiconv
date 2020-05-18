@@ -1,0 +1,9 @@
+<hg.component.common.base.categories.operation.mapping.ExternalOperationMapping>
+  <operations/>
+  <outputFields>
+    <hg.component.common.base.categories.operation.mapping.outfields.CopySocketFields>
+      <name>*</name>
+      <fetchSocketId>in0</fetchSocketId>
+    </hg.component.common.base.categories.operation.mapping.outfields.CopySocketFields>
+  </outputFields>
+</hg.component.common.base.categories.operation.mapping.ExternalOperationMapping>

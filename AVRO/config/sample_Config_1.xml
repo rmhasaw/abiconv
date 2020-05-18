@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ns2:job xmlns:ns2="hydrograph/engine/jaxb/job">
+  <jobConfig>
+    <jobId>sample_628</jobId>
+    <XMLPath>jobs/sample.xml</XMLPath>
+  </jobConfig>
+</ns2:job>

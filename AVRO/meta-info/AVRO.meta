@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:JobMetaFile xmlns:ns2="hg/ui/common/schema">
+    <components>
+        <component name="IFAvro_1">
+            <cordinate x="351" y="309"/>
+        </component>
+        <component name="GRecords_1">
+            <cordinate x="175" y="250"/>
+        </component>
+        <component name="OFDelimited_1">
+            <cordinate x="677" y="276"/>
+        </component>
+        <component name="IHive_3">
+            <cordinate x="75" y="143"/>
+        </component>
+        <component name="OFDelimited_2">
+            <cordinate x="361" y="198"/>
+        </component>
+        <component name="Transform_1">
+            <cordinate x="212" y="105"/>
+        </component>
+    </components>
+    <comments/>
+    <paramFilePath filePath="/AVRO/param/AVRO.properties"/>
+</ns2:JobMetaFile>

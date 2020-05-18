@@ -1,0 +1,4451 @@
+<hg.component.common.base.schema.Record>
+  <otherAttributes/>
+  <fieldOrRecordSchema>
+    <hg.component.common.base.schema.Field>
+      <name>country</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>business</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_source</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_frequency</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>dml_version</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_seqno</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>bre_version</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_year</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_month</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_week</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_week_number</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_day</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>ppmonth</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>ppweek</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>added_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>updated_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>load_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>primary_key</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>transaction_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>transaction_level</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>transaction_number</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>survey_start_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_age</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_infant_age</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_gender</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>outlet</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>brand</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>subcategory_code</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>purchase_method</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>purchase_type</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>on_sale</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_26</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_27</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_28</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_29</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_30</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_31</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_32</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_33</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_34</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_35</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_36</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_37</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_38</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_39</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_40</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_41</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_42</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_43</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_44</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_45</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_46</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_47</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_48</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_49</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_50</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_51</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_52</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_53</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_54</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_55</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_56</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_57</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_58</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_59</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_60</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_61</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_62</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_63</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_64</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_65</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_66</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_67</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_68</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_69</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_70</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_71</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_72</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_73</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_74</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_75</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_76</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_77</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_78</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_79</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_80</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_81</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_82</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_83</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_84</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_85</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_86</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_87</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_88</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_89</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_90</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_91</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_92</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_93</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_94</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_95</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_96</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_97</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_98</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>questionnaire_values_01</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>questionnaire_values_02</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>questionnaire_values_03</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_10</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_11</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_12</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_13</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_14</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_15</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_16</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_17</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_18</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_19</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_20</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_21</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_22</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_23</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_24</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_25</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_26</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_27</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_28</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_29</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_30</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_31</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_32</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_33</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_34</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_35</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_36</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_37</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_38</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_39</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_40</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_41</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_42</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_43</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_44</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_45</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_46</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_47</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_48</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_49</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_50</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_51</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_52</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_53</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_54</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_55</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_56</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_57</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_58</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_59</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_60</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_61</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_62</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_63</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_64</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_65</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_66</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_67</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_68</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_npd_attr_69</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>mail_date</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>confirmit_jobnum</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>filler_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>reserved_fields</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>extended_dml_flag</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>var_10</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>reserved_internal</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>price</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>units_per_household</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_item_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>units_per_package</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_10</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_11</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_12</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_13</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_14</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_15</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_16</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_17</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_18</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_19</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_20</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_21</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_22</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_23</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_24</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_25</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_26</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_27</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_28</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_29</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_30</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_31</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_32</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_33</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_34</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_35</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_36</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_37</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_38</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_39</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_40</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_41</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_42</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_43</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_44</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_45</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_46</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_47</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_48</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_49</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_50</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_51</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_52</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_53</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_54</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_55</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_56</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_57</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_58</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_59</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_60</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_61</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_62</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_63</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_64</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_65</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_66</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_67</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_68</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_69</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_70</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_71</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_72</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_73</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_74</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_75</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_76</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_77</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_78</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_79</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_80</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_81</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_82</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_83</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_84</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_85</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_86</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_87</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_88</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_89</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_90</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_91</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_92</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_93</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_94</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_95</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_96</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_97</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_98</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_99</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>units</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>sales</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>measures_source</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>units</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>sales</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>measures</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>units</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>sales</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>measures_factored</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>blocking_type</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_type</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>units_factor</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>sales_factor</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factors</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>model_number</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>manufacturer_code_type</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>manufacturer_code</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npditem_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>business_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>subcategory_code</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>model_number</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>core_model_number</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_01</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_02</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_03</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_04</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_05</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_06</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_07</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_08</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_09</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_10</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_11</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_12</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_13</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_14</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_15</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_16</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_17</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_18</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_19</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_20</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_21</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_22</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_23</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_24</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_25</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_26</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_27</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_28</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_29</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_30</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_31</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_32</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_33</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_34</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_35</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_36</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_37</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_38</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_39</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_40</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_41</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_42</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_43</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_44</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_45</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_46</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_47</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_48</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_49</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_50</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_51</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_52</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_53</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_54</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_55</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_56</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_57</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_58</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_59</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_60</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_61</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_62</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_63</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_64</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_65</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_66</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_67</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_68</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_69</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_70</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_71</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_72</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_73</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_74</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_75</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_76</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_77</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_78</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_79</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_80</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_81</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_82</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_83</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_84</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_85</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_86</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_87</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_88</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_89</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_90</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_91</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_92</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_93</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_94</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_95</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_96</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_97</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_98</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrcode_99</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrvalue_01</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrvalue_02</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrvalue_03</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrvalue_04</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>std_attrvalue_05</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>units_per_package</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>status</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>country_code</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>group_item_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>parent_item_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>parent_item_id_status</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>item_filler</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_item</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>status</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>counter_01</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>counter_02</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>counter_03</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>counter_04</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>counter_05</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>week</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>month</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>quarter</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>half_year</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>year</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>time_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>category_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>brand_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>channel_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>outlet_family_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_10</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_11</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_12</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_13</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_14</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_15</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_16</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_17</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_18</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_19</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>bus_dim_count</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>dim_name</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_2</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_3</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_4</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_5</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_6</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_7</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_8</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>level_9</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>dim_levels</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>bus_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>grid_01_count</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>attr_01</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>attr_02</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>grid_01</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>grid_02_count</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>attr_01</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>attr_02</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>grid_02</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_defined_fields_count</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_defined_fields</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_defined_multi_count</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>code_count</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_defined_codes</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_defined_multi</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>raw_fields</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>cns_raw_values_0</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>cns_raw_values_1</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_20</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_21</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_22</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_23</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_24</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_25</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_26</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_27</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_28</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_29</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_30</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_31</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_32</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_33</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_34</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_35</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_36</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_37</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_38</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_39</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_40</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_41</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_42</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_43</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_44</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>factor_values_45</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_107</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_108</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_109</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_110</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_111</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_112</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_113</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_114</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_115</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_116</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_117</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_118</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_119</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_120</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_121</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_122</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_123</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_124</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_125</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_126</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_127</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_128</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_129</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_130</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_131</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_132</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_133</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_134</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_135</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_136</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_137</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_138</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_139</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_140</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_141</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_142</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_143</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_144</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_145</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_146</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_147</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_148</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_149</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>multi_choice_codes_150</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_100</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_101</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_102</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_103</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_104</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_105</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_106</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_107</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_108</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_109</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_110</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_111</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_112</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_113</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_114</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_115</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_116</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_117</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_118</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_119</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_120</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_121</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_122</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_123</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_124</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_125</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_126</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_127</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_128</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_129</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_130</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_131</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_132</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_133</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_134</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_135</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_136</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_137</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_138</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_139</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_140</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_141</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_142</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_143</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_144</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_145</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_146</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_147</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_148</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_149</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_150</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_151</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_152</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_153</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_154</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_155</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_156</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_157</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_158</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_159</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_160</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_161</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_162</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_163</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_164</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_165</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_166</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_167</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_168</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_169</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_170</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_171</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_172</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>npd_attr_173</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>questionnaire_values_04</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>sdr_primary_key</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <vectorDims>
+        <string>-1</string>
+      </vectorDims>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>end_of_rec</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+  </fieldOrRecordSchema>
+</hg.component.common.base.schema.Record>

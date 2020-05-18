@@ -1,0 +1,58 @@
+<hg.ael.ds.AELEngineConfiguration>
+  <name>Spark Batch</name>
+  <id>spark-batch</id>
+  <componentConfigurations class="linked-hash-set">
+    <hg.ael.ds.ComponentConfiguration>
+      <parentConfiguration reference="../../.."/>
+      <componentId>IFAvro_1589816802413_597</componentId>
+      <properties>
+        <entry>
+          <string>batch</string>
+          <hg.ael.batch.common.BatchProperty>
+            <batch>
+              <baseValue>0</baseValue>
+              <value>0</value>
+            </batch>
+          </hg.ael.batch.common.BatchProperty>
+        </entry>
+        <entry>
+          <string>ComponentRuntimeProperties</string>
+          <hg.ael.batch.common.ComponentRuntimeProperties>
+            <runtimeProperties class="linked-hash-map">
+              <entry>
+                <string>avro.mapred.ignore.inputs.without.extension </string>
+                <string>false</string>
+              </entry>
+            </runtimeProperties>
+          </hg.ael.batch.common.ComponentRuntimeProperties>
+        </entry>
+      </properties>
+    </hg.ael.ds.ComponentConfiguration>
+    <hg.ael.ds.ComponentConfiguration>
+      <parentConfiguration reference="../../.."/>
+      <componentId>Discard_1589816802414_809</componentId>
+      <properties>
+        <entry>
+          <string>batch</string>
+          <hg.ael.batch.common.BatchProperty>
+            <batch>
+              <baseValue>0</baseValue>
+              <value>0</value>
+            </batch>
+          </hg.ael.batch.common.BatchProperty>
+        </entry>
+        <entry>
+          <string>ComponentRuntimeProperties</string>
+          <hg.ael.batch.common.ComponentRuntimeProperties>
+            <runtimeProperties class="linked-hash-map">
+              <entry>
+                <string>avro.mapred.ignore.inputs.without.extension </string>
+                <string>false</string>
+              </entry>
+            </runtimeProperties>
+          </hg.ael.batch.common.ComponentRuntimeProperties>
+        </entry>
+      </properties>
+    </hg.ael.ds.ComponentConfiguration>
+  </componentConfigurations>
+</hg.ael.ds.AELEngineConfiguration>

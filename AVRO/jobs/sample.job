@@ -1,0 +1,578 @@
+<hg.ui.model.graph.GraphModel>
+  <propertyChangeSupport serialization="custom">
+    <java.beans.PropertyChangeSupport>
+      <default>
+        <source class="hg.ui.model.graph.GraphModel" reference="../../../.."/>
+        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+      </default>
+      <null/>
+    </java.beans.PropertyChangeSupport>
+  </propertyChangeSupport>
+  <globalRuntimeProperty/>
+  <components>
+    <hg.ui.model.component.ComponentModel>
+      <propertyChangeSupport serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="hg.ui.model.component.ComponentModel" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </propertyChangeSupport>
+      <baseComponent class="hg.component.input.fileavro.FileAvro">
+        <id>IFAvro_1589816802413_597</id>
+        <name>IFAvro_1</name>
+        <flowConstraint>
+          <expression></expression>
+          <flowControlHandler class="hg.component.common.base.condition.SkipFlowHandler"/>
+        </flowConstraint>
+        <disabled>
+          <baseValue>false</baseValue>
+          <value>false</value>
+        </disabled>
+        <sockets class="linked-hash-map">
+          <entry>
+            <string>out0</string>
+            <hg.component.common.base.categories.input.InputComponentSchemaFeedSocket>
+              <socketID>out0</socketID>
+              <type>hg.component.common.base.categories.input.InputComponentSchemaFeedSocket</type>
+              <parentComponentID>IFAvro_1589816802413_597</parentComponentID>
+              <connectedSocket class="hg.component.common.base.socket.types.ComponentSchemaFetchSocket">
+                <socketID>in0</socketID>
+                <type>hg.component.common.base.socket.types.ComponentSchemaFetchSocket</type>
+                <parentComponentID>Discard_1589816802414_809</parentComponentID>
+                <connectedSocket class="hg.component.common.base.categories.input.InputComponentSchemaFeedSocket" reference="../.."/>
+                <schema>
+                  <otherAttributes/>
+                  <fieldOrRecordSchema>
+                    <hg.component.common.base.schema.Field>
+                      <name>country</name>
+                      <parent reference="../../.."/>
+                      <otherAttributes/>
+                      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+                        <type>java.lang.String</type>
+                      </fieldType>
+                      <description></description>
+                    </hg.component.common.base.schema.Field>
+                    <hg.component.common.base.schema.Field>
+                      <name>panelist_id</name>
+                      <parent reference="../../.."/>
+                      <otherAttributes/>
+                      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                        <type>java.lang.Long</type>
+                      </fieldType>
+                      <description></description>
+                    </hg.component.common.base.schema.Field>
+                    <hg.component.common.base.schema.Field>
+                      <name>user_age</name>
+                      <parent reference="../../.."/>
+                      <otherAttributes/>
+                      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                        <type>java.lang.Long</type>
+                      </fieldType>
+                      <description></description>
+                    </hg.component.common.base.schema.Field>
+                    <hg.component.common.base.schema.Record>
+                      <name>time_dim</name>
+                      <parent reference="../../.."/>
+                      <otherAttributes/>
+                      <fieldOrRecordSchema>
+                        <hg.component.common.base.schema.Field>
+                          <name>week</name>
+                          <parent reference="../../../../.."/>
+                          <otherAttributes/>
+                          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                            <type>java.lang.Long</type>
+                          </fieldType>
+                          <description></description>
+                        </hg.component.common.base.schema.Field>
+                        <hg.component.common.base.schema.Field>
+                          <name>month</name>
+                          <parent reference="../../../../.."/>
+                          <otherAttributes/>
+                          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                            <type>java.lang.Long</type>
+                          </fieldType>
+                          <description></description>
+                        </hg.component.common.base.schema.Field>
+                        <hg.component.common.base.schema.Field>
+                          <name>quarter</name>
+                          <parent reference="../../../../.."/>
+                          <otherAttributes/>
+                          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                            <type>java.lang.Long</type>
+                          </fieldType>
+                          <description></description>
+                        </hg.component.common.base.schema.Field>
+                        <hg.component.common.base.schema.Field>
+                          <name>half_year</name>
+                          <parent reference="../../../../.."/>
+                          <otherAttributes/>
+                          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                            <type>java.lang.Long</type>
+                          </fieldType>
+                          <description></description>
+                        </hg.component.common.base.schema.Field>
+                        <hg.component.common.base.schema.Field>
+                          <name>year</name>
+                          <parent reference="../../../../.."/>
+                          <otherAttributes/>
+                          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                            <type>java.lang.Long</type>
+                          </fieldType>
+                          <description></description>
+                        </hg.component.common.base.schema.Field>
+                      </fieldOrRecordSchema>
+                    </hg.component.common.base.schema.Record>
+                  </fieldOrRecordSchema>
+                  <externalSchema></externalSchema>
+                </schema>
+              </connectedSocket>
+              <schema>
+                <otherAttributes/>
+                <fieldOrRecordSchema/>
+                <externalSchema>resources/avro_sdr_v2.shm</externalSchema>
+              </schema>
+              <debugEnabled>false</debugEnabled>
+            </hg.component.common.base.categories.input.InputComponentSchemaFeedSocket>
+          </entry>
+        </sockets>
+        <datasetUniqueId>IFAvro_1589816807236_377</datasetUniqueId>
+        <path>/user/rmhasawade/CNS_SDR_V2_DATA_AVRO/CNS_SDR_V2_DATA_AVRO_000</path>
+        <safe>
+          <baseValue>false</baseValue>
+          <value>false</value>
+        </safe>
+        <strict>
+          <baseValue>false</baseValue>
+          <value>false</value>
+        </strict>
+      </baseComponent>
+      <uiProperties>
+        <location>
+          <x>125</x>
+          <y>422</y>
+        </location>
+        <size>
+          <width>100</width>
+          <height>96</height>
+        </size>
+        <componentLabel serialization="custom">
+          <hg.ui.model.basemodel.Model>
+            <default>
+              <propertyChangeSupport serialization="custom">
+                <java.beans.PropertyChangeSupport>
+                  <default>
+                    <source class="hg.ui.model.component.label.ComponentLabel" reference="../../../../../.."/>
+                    <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  </default>
+                  <null/>
+                </java.beans.PropertyChangeSupport>
+              </propertyChangeSupport>
+            </default>
+          </hg.ui.model.basemodel.Model>
+          <hg.ui.model.component.label.ComponentLabel>
+            <default>
+              <size>
+                <width>-1</width>
+                <height>16</height>
+              </size>
+              <text>IFAvro_1</text>
+            </default>
+          </hg.ui.model.component.label.ComponentLabel>
+        </componentLabel>
+        <ports class="linked-hash-map">
+          <entry>
+            <string>out0</string>
+            <hg.ui.model.port.PortModel>
+              <propertyChangeSupport serialization="custom">
+                <java.beans.PropertyChangeSupport>
+                  <default>
+                    <source class="hg.ui.model.port.PortModel" reference="../../../.."/>
+                    <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                  </default>
+                  <null/>
+                </java.beans.PropertyChangeSupport>
+              </propertyChangeSupport>
+              <name>out0</name>
+              <id>out0</id>
+              <isWatched>false</isWatched>
+              <socket class="hg.component.common.base.categories.input.InputComponentSchemaFeedSocket" reference="../../../../../baseComponent/sockets/entry/hg.component.common.base.categories.input.InputComponentSchemaFeedSocket"/>
+              <componentModel reference="../../../../.."/>
+              <outgoingLinks>
+                <hg.ui.model.link.LinkModel>
+                  <propertyChangeSupport serialization="custom">
+                    <java.beans.PropertyChangeSupport>
+                      <default>
+                        <source class="hg.ui.model.link.LinkModel" reference="../../../.."/>
+                        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                      </default>
+                      <null/>
+                    </java.beans.PropertyChangeSupport>
+                  </propertyChangeSupport>
+                  <lineStyle>1</lineStyle>
+                  <COMPONENT__FAIL__RECORD__COUNT>-1</COMPONENT__FAIL__RECORD__COUNT>
+                  <COMPONENT__FAIL__COUNT__DISPLAY>?</COMPONENT__FAIL__COUNT__DISPLAY>
+                  <sourcePort reference="../../.."/>
+                  <targetPort>
+                    <propertyChangeSupport serialization="custom">
+                      <java.beans.PropertyChangeSupport>
+                        <default>
+                          <source class="hg.ui.model.port.PortModel" reference="../../../.."/>
+                          <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                        </default>
+                        <null/>
+                      </java.beans.PropertyChangeSupport>
+                    </propertyChangeSupport>
+                    <id>in0</id>
+                    <isWatched>false</isWatched>
+                    <socket class="hg.component.common.base.socket.types.ComponentSchemaFetchSocket" reference="../../../../../../../../baseComponent/sockets/entry/hg.component.common.base.categories.input.InputComponentSchemaFeedSocket/connectedSocket"/>
+                    <componentModel>
+                      <propertyChangeSupport serialization="custom">
+                        <java.beans.PropertyChangeSupport>
+                          <default>
+                            <source class="hg.ui.model.component.ComponentModel" reference="../../../.."/>
+                            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                          </default>
+                          <null/>
+                        </java.beans.PropertyChangeSupport>
+                      </propertyChangeSupport>
+                      <baseComponent class="hg.component.output.discard.Discard">
+                        <id>Discard_1589816802414_809</id>
+                        <name>Discard_1</name>
+                        <flowConstraint>
+                          <expression></expression>
+                          <flowControlHandler class="hg.component.common.base.condition.SkipComponentHandler">
+                            <sourceSocketId></sourceSocketId>
+                            <targetSocketId></targetSocketId>
+                          </flowControlHandler>
+                        </flowConstraint>
+                        <disabled>
+                          <baseValue>false</baseValue>
+                          <value>false</value>
+                        </disabled>
+                        <sockets class="linked-hash-map">
+                          <entry>
+                            <string>in0</string>
+                            <hg.component.common.base.socket.types.ComponentSchemaFetchSocket reference="../../../../../../../../../../../../baseComponent/sockets/entry/hg.component.common.base.categories.input.InputComponentSchemaFeedSocket/connectedSocket"/>
+                          </entry>
+                        </sockets>
+                        <datasetUniqueId>Discard_1589816807246_32</datasetUniqueId>
+                      </baseComponent>
+                      <uiProperties>
+                        <location>
+                          <x>297</x>
+                          <y>427</y>
+                        </location>
+                        <size>
+                          <width>100</width>
+                          <height>96</height>
+                        </size>
+                        <componentLabel serialization="custom">
+                          <hg.ui.model.basemodel.Model>
+                            <default>
+                              <propertyChangeSupport serialization="custom">
+                                <java.beans.PropertyChangeSupport>
+                                  <default>
+                                    <source class="hg.ui.model.component.label.ComponentLabel" reference="../../../../../.."/>
+                                    <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+                                  </default>
+                                  <null/>
+                                </java.beans.PropertyChangeSupport>
+                              </propertyChangeSupport>
+                            </default>
+                          </hg.ui.model.basemodel.Model>
+                          <hg.ui.model.component.label.ComponentLabel>
+                            <default>
+                              <size>
+                                <width>-1</width>
+                                <height>16</height>
+                              </size>
+                              <text>Discard_1</text>
+                            </default>
+                          </hg.ui.model.component.label.ComponentLabel>
+                        </componentLabel>
+                        <ports class="linked-hash-map">
+                          <entry>
+                            <string>in0</string>
+                            <hg.ui.model.port.PortModel reference="../../../../.."/>
+                          </entry>
+                        </ports>
+                        <portAlignmentCounters>
+                          <numberOfLeftPorts>1</numberOfLeftPorts>
+                          <numberOfRightPorts>0</numberOfRightPorts>
+                          <numberOfBottomPorts>0</numberOfBottomPorts>
+                        </portAlignmentCounters>
+                        <componentProblems/>
+                        <newComponent>false</newComponent>
+                      </uiProperties>
+                      <parent reference="../../../../../../../../../../.."/>
+                      <engineSpecificConfig>
+                        <componentModel reference="../.."/>
+                      </engineSpecificConfig>
+                    </componentModel>
+                    <outgoingLinks/>
+                    <incomingLinks>
+                      <hg.ui.model.link.LinkModel reference="../../.."/>
+                    </incomingLinks>
+                    <schema>
+                      <otherAttributes/>
+                      <fieldOrRecordSchema>
+                        <hg.component.common.base.schema.Field>
+                          <name>country</name>
+                          <parent reference="../../.."/>
+                          <otherAttributes/>
+                          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+                            <type>java.lang.String</type>
+                          </fieldType>
+                          <description></description>
+                        </hg.component.common.base.schema.Field>
+                        <hg.component.common.base.schema.Field>
+                          <name>panelist_id</name>
+                          <parent reference="../../.."/>
+                          <otherAttributes/>
+                          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                            <type>java.lang.Long</type>
+                          </fieldType>
+                          <description></description>
+                        </hg.component.common.base.schema.Field>
+                        <hg.component.common.base.schema.Field>
+                          <name>user_age</name>
+                          <parent reference="../../.."/>
+                          <otherAttributes/>
+                          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                            <type>java.lang.Long</type>
+                          </fieldType>
+                          <description></description>
+                        </hg.component.common.base.schema.Field>
+                        <hg.component.common.base.schema.Record>
+                          <name>time_dim</name>
+                          <parent reference="../../.."/>
+                          <otherAttributes/>
+                          <fieldOrRecordSchema>
+                            <hg.component.common.base.schema.Field>
+                              <name>week</name>
+                              <parent reference="../../.."/>
+                              <otherAttributes/>
+                              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                                <type>java.lang.Long</type>
+                              </fieldType>
+                              <description></description>
+                            </hg.component.common.base.schema.Field>
+                            <hg.component.common.base.schema.Field>
+                              <name>month</name>
+                              <parent reference="../../.."/>
+                              <otherAttributes/>
+                              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                                <type>java.lang.Long</type>
+                              </fieldType>
+                              <description></description>
+                            </hg.component.common.base.schema.Field>
+                            <hg.component.common.base.schema.Field>
+                              <name>quarter</name>
+                              <parent reference="../../.."/>
+                              <otherAttributes/>
+                              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                                <type>java.lang.Long</type>
+                              </fieldType>
+                              <description></description>
+                            </hg.component.common.base.schema.Field>
+                            <hg.component.common.base.schema.Field>
+                              <name>half_year</name>
+                              <parent reference="../../.."/>
+                              <otherAttributes/>
+                              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                                <type>java.lang.Long</type>
+                              </fieldType>
+                              <description></description>
+                            </hg.component.common.base.schema.Field>
+                            <hg.component.common.base.schema.Field>
+                              <name>year</name>
+                              <parent reference="../../.."/>
+                              <otherAttributes/>
+                              <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                                <type>java.lang.Long</type>
+                              </fieldType>
+                              <description></description>
+                            </hg.component.common.base.schema.Field>
+                          </fieldOrRecordSchema>
+                        </hg.component.common.base.schema.Record>
+                      </fieldOrRecordSchema>
+                    </schema>
+                    <dirtySchema>false</dirtySchema>
+                  </targetPort>
+                </hg.ui.model.link.LinkModel>
+              </outgoingLinks>
+              <incomingLinks/>
+              <schema>
+                <otherAttributes/>
+                <fieldOrRecordSchema>
+                  <hg.component.common.base.schema.Field>
+                    <name>load_id</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>transaction_id</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>transaction_number</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>opentext_id_flag</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>raw_opentext_id</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>added_date</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>field_id</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>field_name</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+                      <type>java.lang.String</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>no_of_values</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>field_values</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <vectorDims>
+                      <string>-1</string>
+                    </vectorDims>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+                      <type>java.lang.String</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>end_of_rec</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+                      <type>java.lang.String</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                </fieldOrRecordSchema>
+              </schema>
+              <dirtySchema>false</dirtySchema>
+            </hg.ui.model.port.PortModel>
+          </entry>
+        </ports>
+        <portAlignmentCounters>
+          <numberOfLeftPorts>0</numberOfLeftPorts>
+          <numberOfRightPorts>1</numberOfRightPorts>
+          <numberOfBottomPorts>0</numberOfBottomPorts>
+        </portAlignmentCounters>
+        <componentProblems/>
+        <newComponent>false</newComponent>
+      </uiProperties>
+      <parent reference="../../.."/>
+      <engineSpecificConfig>
+        <componentModel reference="../.."/>
+      </engineSpecificConfig>
+    </hg.ui.model.component.ComponentModel>
+    <hg.ui.model.component.ComponentModel reference="../hg.ui.model.component.ComponentModel/uiProperties/ports/entry/hg.ui.model.port.PortModel/outgoingLinks/hg.ui.model.link.LinkModel/targetPort/componentModel"/>
+  </components>
+  <commentBoxes/>
+  <graphID>Job_180520_091616436</graphID>
+  <graphExecutionId>180520_091741143</graphExecutionId>
+  <graphName>sample</graphName>
+  <isGlobalRuntimePropertySet>false</isGlobalRuntimePropertySet>
+  <isJobSpecificRuntimePorpertySet>false</isJobSpecificRuntimePorpertySet>
+  <globalRuntimeXmlFiles/>
+  <jobSpecificRuntimeXmlFiles/>
+  <jobConfigurationFileName>config/sample_Config_1.xml</jobConfigurationFileName>
+  <jobConfigurationFiles>
+    <string>config/sample_Config_1.xml</string>
+  </jobConfigurationFiles>
+  <otherPropertiesMap>
+    <entry>
+      <string>current-project-name</string>
+      <string>AVRO</string>
+    </entry>
+  </otherPropertiesMap>
+  <recentJobExecutionHistorys>
+    <hg.ui.model.ds.RecentJobExecutionHistory>
+      <jobConfigFilePath>config/sample_Config_1.xml</jobConfigFilePath>
+      <jobExecutionMode>REMOTE</jobExecutionMode>
+      <commandId>hg.ui.command.job.execution.remote</commandId>
+    </hg.ui.model.ds.RecentJobExecutionHistory>
+  </recentJobExecutionHistorys>
+  <graph>
+    <components>
+      <entry>
+        <string>Discard_1589816802414_809</string>
+        <hg.component.output.discard.Discard reference="../../../../components/hg.ui.model.component.ComponentModel/uiProperties/ports/entry/hg.ui.model.port.PortModel/outgoingLinks/hg.ui.model.link.LinkModel/targetPort/componentModel/baseComponent"/>
+      </entry>
+      <entry>
+        <string>IFAvro_1589816802413_597</string>
+        <hg.component.input.fileavro.FileAvro reference="../../../../components/hg.ui.model.component.ComponentModel/baseComponent"/>
+      </entry>
+    </components>
+    <graphID>Job_180520_091616436</graphID>
+    <graphName>sample</graphName>
+    <graphVersion>
+      <baseValue>5</baseValue>
+      <value>5</value>
+    </graphVersion>
+    <otherProperties/>
+  </graph>
+</hg.ui.model.graph.GraphModel>

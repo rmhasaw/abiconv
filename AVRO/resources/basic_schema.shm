@@ -1,0 +1,41 @@
+<hg.component.common.base.schema.Record>
+  <otherAttributes/>
+  <fieldOrRecordSchema>
+    <hg.component.common.base.schema.Field>
+      <name>country</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>business</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_source</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>data_frequency</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+  </fieldOrRecordSchema>
+</hg.component.common.base.schema.Record>

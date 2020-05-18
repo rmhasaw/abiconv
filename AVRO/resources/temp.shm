@@ -1,0 +1,84 @@
+<hg.component.common.base.schema.Record>
+  <otherAttributes/>
+  <fieldOrRecordSchema>
+    <hg.component.common.base.schema.Field>
+      <name>country</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+        <type>java.lang.String</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>panelist_id</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Field>
+      <name>user_age</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+        <type>java.lang.Long</type>
+      </fieldType>
+      <description></description>
+    </hg.component.common.base.schema.Field>
+    <hg.component.common.base.schema.Record>
+      <name>time_dim</name>
+      <parent reference="../../.."/>
+      <otherAttributes/>
+      <fieldOrRecordSchema>
+        <hg.component.common.base.schema.Field>
+          <name>week</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>month</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>quarter</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>half_year</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+        <hg.component.common.base.schema.Field>
+          <name>year</name>
+          <parent reference="../../.."/>
+          <otherAttributes/>
+          <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+            <type>java.lang.Long</type>
+          </fieldType>
+          <description></description>
+        </hg.component.common.base.schema.Field>
+      </fieldOrRecordSchema>
+    </hg.component.common.base.schema.Record>
+  </fieldOrRecordSchema>
+</hg.component.common.base.schema.Record>

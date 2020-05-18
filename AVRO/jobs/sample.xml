@@ -1,0 +1,168 @@
+<hg.graph.Graph>
+  <components>
+    <entry>
+      <string>Discard_1589816802414_809</string>
+      <hg.component.output.discard.Discard>
+        <id>Discard_1589816802414_809</id>
+        <name>Discard_1</name>
+        <flowConstraint>
+          <expression></expression>
+          <flowControlHandler class="hg.component.common.base.condition.SkipComponentHandler">
+            <sourceSocketId></sourceSocketId>
+            <targetSocketId></targetSocketId>
+          </flowControlHandler>
+        </flowConstraint>
+        <disabled>
+          <baseValue>false</baseValue>
+          <value>false</value>
+        </disabled>
+        <sockets class="linked-hash-map">
+          <entry>
+            <string>in0</string>
+            <hg.component.common.base.socket.types.ComponentSchemaFetchSocket>
+              <socketID>in0</socketID>
+              <type>hg.component.common.base.socket.types.ComponentSchemaFetchSocket</type>
+              <parentComponentID>Discard_1589816802414_809</parentComponentID>
+              <connectedSocket class="hg.component.common.base.categories.input.InputComponentSchemaFeedSocket">
+                <socketID>out0</socketID>
+                <type>hg.component.common.base.categories.input.InputComponentSchemaFeedSocket</type>
+                <parentComponentID>IFAvro_1589816802413_597</parentComponentID>
+                <connectedSocket class="hg.component.common.base.socket.types.ComponentSchemaFetchSocket" reference="../.."/>
+                <schema>
+                  <otherAttributes/>
+                  <fieldOrRecordSchema/>
+                  <externalSchema>resources/avro_sdr_v2.shm</externalSchema>
+                </schema>
+                <debugEnabled>false</debugEnabled>
+              </connectedSocket>
+              <schema>
+                <otherAttributes/>
+                <fieldOrRecordSchema>
+                  <hg.component.common.base.schema.Field>
+                    <name>country</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldString">
+                      <type>java.lang.String</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>panelist_id</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Field>
+                    <name>user_age</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                      <type>java.lang.Long</type>
+                    </fieldType>
+                    <description></description>
+                  </hg.component.common.base.schema.Field>
+                  <hg.component.common.base.schema.Record>
+                    <name>time_dim</name>
+                    <parent reference="../../.."/>
+                    <otherAttributes/>
+                    <fieldOrRecordSchema>
+                      <hg.component.common.base.schema.Field>
+                        <name>week</name>
+                        <parent reference="../../../../.."/>
+                        <otherAttributes/>
+                        <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                          <type>java.lang.Long</type>
+                        </fieldType>
+                        <description></description>
+                      </hg.component.common.base.schema.Field>
+                      <hg.component.common.base.schema.Field>
+                        <name>month</name>
+                        <parent reference="../../../../.."/>
+                        <otherAttributes/>
+                        <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                          <type>java.lang.Long</type>
+                        </fieldType>
+                        <description></description>
+                      </hg.component.common.base.schema.Field>
+                      <hg.component.common.base.schema.Field>
+                        <name>quarter</name>
+                        <parent reference="../../../../.."/>
+                        <otherAttributes/>
+                        <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                          <type>java.lang.Long</type>
+                        </fieldType>
+                        <description></description>
+                      </hg.component.common.base.schema.Field>
+                      <hg.component.common.base.schema.Field>
+                        <name>half_year</name>
+                        <parent reference="../../../../.."/>
+                        <otherAttributes/>
+                        <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                          <type>java.lang.Long</type>
+                        </fieldType>
+                        <description></description>
+                      </hg.component.common.base.schema.Field>
+                      <hg.component.common.base.schema.Field>
+                        <name>year</name>
+                        <parent reference="../../../../.."/>
+                        <otherAttributes/>
+                        <fieldType class="hg.component.common.base.schema.fieldtypes.TypeFieldLong">
+                          <type>java.lang.Long</type>
+                        </fieldType>
+                        <description></description>
+                      </hg.component.common.base.schema.Field>
+                    </fieldOrRecordSchema>
+                  </hg.component.common.base.schema.Record>
+                </fieldOrRecordSchema>
+                <externalSchema></externalSchema>
+              </schema>
+            </hg.component.common.base.socket.types.ComponentSchemaFetchSocket>
+          </entry>
+        </sockets>
+        <datasetUniqueId>Discard_1589816807246_32</datasetUniqueId>
+      </hg.component.output.discard.Discard>
+    </entry>
+    <entry>
+      <string>IFAvro_1589816802413_597</string>
+      <hg.component.input.fileavro.FileAvro>
+        <id>IFAvro_1589816802413_597</id>
+        <name>IFAvro_1</name>
+        <flowConstraint>
+          <expression></expression>
+          <flowControlHandler class="hg.component.common.base.condition.SkipFlowHandler"/>
+        </flowConstraint>
+        <disabled>
+          <baseValue>false</baseValue>
+          <value>false</value>
+        </disabled>
+        <sockets class="linked-hash-map">
+          <entry>
+            <string>out0</string>
+            <hg.component.common.base.categories.input.InputComponentSchemaFeedSocket reference="../../../../../entry/hg.component.output.discard.Discard/sockets/entry/hg.component.common.base.socket.types.ComponentSchemaFetchSocket/connectedSocket"/>
+          </entry>
+        </sockets>
+        <datasetUniqueId>IFAvro_1589816807236_377</datasetUniqueId>
+        <path>/user/rmhasawade/CNS_SDR_V2_DATA_AVRO/CNS_SDR_V2_DATA_AVRO_000</path>
+        <safe>
+          <baseValue>false</baseValue>
+          <value>false</value>
+        </safe>
+        <strict>
+          <baseValue>false</baseValue>
+          <value>false</value>
+        </strict>
+      </hg.component.input.fileavro.FileAvro>
+    </entry>
+  </components>
+  <graphID>Job_180520_091616436</graphID>
+  <graphName>sample</graphName>
+  <graphVersion>
+    <baseValue>5</baseValue>
+    <value>5</value>
+  </graphVersion>
+  <otherProperties/>
+</hg.graph.Graph>
